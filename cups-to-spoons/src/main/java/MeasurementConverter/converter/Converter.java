@@ -15,7 +15,7 @@ public class Converter {
     public String conversion(int startingUnit, int endingUnit, int quantity){
         String key = conversionMapKey(startingUnit, endingUnit);
         List<Conversions> conversionList = conversionMap.getMap().get(key);
-        String result ="";
+        String result ="converted";
 
         for(int i = 0; i < conversionList.size(); i++){
 
